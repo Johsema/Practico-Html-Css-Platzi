@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+header{
+    width: 100%;
+    height:10vh;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-head_list {
+    display: flex;
+    width: 30rem;
+    height: auto;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-head_list a {
+    margin-right: 1rem;
+    color: black;
+}
+
+nav .nav-head_list .menu-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/152/152530.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+nav .nav-head_list img {
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    align-items: center;
+}
+.busqueda{
+    display: flex;
+    justify-content: center;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.f-list,
+.f-list_elem1,
+.f-list_elem2{
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    list-style: none;
+}
+.f-list_elem1{
+    justify-content: space-around;
+}
+.f-list_elem2 {
+    justify-content: space-around;
+}
