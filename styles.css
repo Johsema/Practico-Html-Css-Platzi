@@ -51,34 +51,64 @@ nav .nav-list img {
     margin-left: 1rem;
 }
 
+main{
+    margin-top: 5rem;
+    text-align: center;
+}
 
+main .main-logo{
+    width: 50.3rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
 
-.logo{
+main .main-logo img {
+    width: 30rem;
+}
+
+main .main-input {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input-container{
+    width: 52.5rem;
+    border-radius: 1.2rem;
+    border: 0.1rem solid #dfe1e5;
     display: flex;
     justify-content: center;
-    height: 30vh;
     align-items: center;
 }
-.busqueda{
-    display: flex;
-    justify-content: center;
-}
-.botones{
-    display: flex;
-    justify-content: center;
+
+main .main-input-container input {
+    width: 47rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    cursor: text;
 }
 
-.f-list,
-.f-list_elem1,
-.f-list_elem2{
-    display: flex;
-    justify-content: space-around;
-    height: 10%;
-    list-style: none;
+main .main-input-container:hover{
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
 }
-.f-list_elem1{
-    justify-content: space-around;
+
+main .main-input-container .search-icon {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
 }
-.f-list_elem2 {
-    justify-content: space-around;
+
+main .main-input-container .micro-icon  {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
 }
